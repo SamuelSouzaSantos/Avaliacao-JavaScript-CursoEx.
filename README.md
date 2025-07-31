@@ -1,2 +1,0 @@
-﻿# Avalia-ao-Pratica-01
-teste teste
