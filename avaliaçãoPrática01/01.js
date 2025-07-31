@@ -5,9 +5,11 @@ if (valorCompra>= 1000){
     percentualDesconto = 0.20
 }else if (valorCompra>=500){
     percentualDesconto = 0.10
+}else {
+    valorFinal = valorCompra
 }
 let valorFinal = valorCompra * (1 - percentualDesconto)
-console.log(`Valor final: R$${valorFinal}`)
+console.log(`Valor final: R$${valorFinal.toFixed(2)}`)
 
 //2. Sistema de Pontos de Fidelidade
 let categoria = "Prata"
@@ -62,7 +64,7 @@ let nota2 = 6
 let nota3 = 5
 let nota4 = 10
 let frequencia = 75
-mediaNota= (nota1+nota2+nota3+nota4)/4
+let mediaNota= (nota1+nota2+nota3+nota4)/4
 if (mediaNota >=6 && frequencia>=75){
     console.log("Aprovado")
 }else{console.log("Reprovado")}
