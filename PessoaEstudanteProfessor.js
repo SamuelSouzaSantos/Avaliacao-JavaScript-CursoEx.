@@ -11,7 +11,7 @@
 // para um método que já existe na sua superclasse.
 
 // Classe Base (Superclasse)
-class Pessoa {
+class pessoa {
     #cpf; // Atributo privado
 
     constructor(nome, dataNascimento, cpf) {
