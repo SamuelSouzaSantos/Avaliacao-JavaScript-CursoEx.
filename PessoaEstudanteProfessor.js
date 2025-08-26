@@ -9,6 +9,7 @@
 // invoca o constructor da superclasse, permitindo que a parte "pai" do objeto seja inicializada corretamente.
 //Sobrescrita de Métodos (Overriding): Uma subclasse pode fornecer uma implementação específica 
 // para um método que já existe na sua superclasse.
+console.log("OI")
 
 // Classe Base (Superclasse)
 class pessoa {
